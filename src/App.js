@@ -1,17 +1,11 @@
-// App.js
-import React from "react";
-import itemList from "./itemList";
+import ClassComponent from "./ClassComponent";
 
 function App() {
   return (
-    <div>
-      <ul>
-        {itemList.map((item) => (
-          <li key={item.id}>{item.name}</li>
-        ))}
-      </ul>
+    <div className="App">
+      <p>Hello!!</p>
+      <ClassComponent />
     </div>
   );
 }
-
 export default App;
